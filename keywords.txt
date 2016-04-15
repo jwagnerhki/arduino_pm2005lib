@@ -1,0 +1,41 @@
+#######################################
+# Syntax Coloring Map For PM2005
+#######################################
+
+#######################################
+# Library (KEYWORD1)
+#######################################
+
+PM2005Lib	KEYWORD1	PM2005Lib
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+measure	KEYWORD2
+readCounts	KEYWORD2
+readStatus  KEYWORD2
+printAlarmflags KEYWORD2
+printCalibrationflags   KEYWORD2
+printWorkstatus KEYWORD2
+printReadings   KEYWORD2
+communicate KEYWORD2
+
+counts_05um KEYWORD2
+counts_2um  KEYWORD2
+counts_10um KEYWORD2
+concentration_2um   KEYWORD2
+concentration_10um  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+PM2005LIB_VERSION   LITERAL1
+PM2005_DEBUG    LITERAL1
+PM2005_BAUD     LITERAL1
+
