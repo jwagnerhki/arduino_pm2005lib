@@ -1,29 +1,29 @@
 = PM2005 Laser Particle Sensor Module Library for Arduino =
 
-The laser particle sensor module PM2005 by Wuhan Cubic Optoelectronics
-measures dust concentrations (pcs/liter) by counting airborne particles
-of different size (0.3 micrometres, 2.5 micrometres, 10 micrometres).
+This is a library for the laser particle sensor module PM2005 manufactured
+by Wuhan Cubic Optoelectronics. The PM2005 module counts airborne particles
+of different sizes in catagories of 0.3, 2.5, and 10 micrometres, and
+measures their concentrations in units of particles/liter. The PM2005 module also
+estimates the Particulate Matter level (PM level) of fine particles (PM2.5)
+and coarse particles (PM10) in units of microgram/cubic meter.
 
-It also reports estimates of the Particulate Matter level (PM level)
-for fine particles (PM2.5; 2.5 micrometres) and for coarse particles (PM10;
-10 micrometres) in units of microgram/cubic meter.
+To get started on a project quickly you can use Arduino, or also the
+"PM2005 TestKit" (PM2005, USB/serial converter, example readout program for Windows)
+that is sold by Diwell.
 
-The company Diwell sells a "PM2005 TestKit" (PM2005, USB/serial converter,
-example readout program for Windows) for fast initial testing.
-
-This library provides PM2005 control and easy read-out of measurements.
-
-Interfacing PM2005 to an Arduino is easy, even though there is no Arduino
-Shield available. The PM2005 needs 4 wires: GND, +5V, and serial RX and TX
-either from an Arduino hardware or a software serial port. The module needs
-a good +5V supply (the voltage should be 5.0+-0.1V). For example on the
-Arduino Nano the pin +5V output is too low (4.5V typical).
+This library provides control and easy read-out of PM2005 module measurements.
 
 For more information about this library please visit us at
 http://www.arduino.cc/en/Reference/PM2005ParticleSensor
 
 For a similar sensor see DFRobot SKU:SEN0177 with a sensor module by Insan.
 Note the SKU:SEN0177 apparently does not work with Arduino software serial.
+
+Interfacing PM2005 and Arduino is easy, though no Arduino Shield is available.
+The PM2005 needs 4 wires (GND, 5V, RX, TX). A good 5V supply of between 4.9V
+and 5.1V is necessary. With an only USB-powered Arduino Nano, the Nano 5V pin
+output is 4.7V, which is too low for solid operation of the PM2005. It is thus
+advisable to supply even an USB-attached Arduino Nano with external power.
 
 == License ==
 
