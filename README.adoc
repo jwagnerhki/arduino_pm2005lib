@@ -25,6 +25,8 @@ and 5.1V is necessary. With an only USB-powered Arduino Nano, the Nano 5V pin
 output is 4.7V, which is too low for solid operation of the PM2005. It is thus
 advisable to supply even an USB-attached Arduino Nano with external power.
 
+Version 1.0.x: first release, with documentation updates (v1.0.0, v1.0.1, v1.0.2)
+
 == License ==
 
 Copyright (c) 2011-2014 Arduino LLC. All right reserved.

@@ -11,7 +11,7 @@
 #include <Arduino.h>
 #include "Stream.h"
 
-#define PM2005LIB_VERSION "1.0.0"
+#define PM2005LIB_VERSION "1.0.2"
 #define PM2005_BAUD 9600
 
 class PM2005Lib {
