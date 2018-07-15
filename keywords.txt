@@ -6,7 +6,7 @@
 # Library (KEYWORD1)
 #######################################
 
-PM2005Lib	KEYWORD1	PM2005Lib
+PM2005Lib	KEYWORD1
 
 #######################################
 # Datatypes (KEYWORD1)
