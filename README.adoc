@@ -14,7 +14,7 @@ that is sold by Diwell.
 This library provides control and easy read-out of PM2005 module measurements.
 
 For more information about this library please visit us at
-http://www.arduino.cc/en/Reference/PM2005ParticleSensor
+https://github.com/jwagnerhki/arduino_pm2005lib
 
 For a similar sensor see DFRobot SKU:SEN0177 with a sensor module by Insan.
 Note the SKU:SEN0177 apparently does not work with Arduino software serial.
